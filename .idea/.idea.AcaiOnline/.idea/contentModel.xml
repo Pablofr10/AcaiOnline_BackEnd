@@ -13,6 +13,9 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include" />
+        <e p="extensions" t="Include">
+          <e p="ServiceCollectionExtensions.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -72,7 +75,9 @@
         <e p="Exceptions" t="Include" />
         <e p="Interfaces" t="Include">
           <e p="Repositories" t="Include">
-            <e p="IAcaiOnlineRepository.cs" t="Include" />
+            <e p="IBaseRepository.cs" t="Include" />
+            <e p="IPedidoRepository.cs" t="Include" />
+            <e p="IUnitOfWork.cs" t="Include" />
           </e>
           <e p="Services" t="Include" />
         </e>
@@ -96,7 +101,9 @@
           </e>
         </e>
         <e p="Repositories" t="Include">
-          <e p="AcaiOnlineRepository.cs" t="Include" />
+          <e p="BaseRepository.cs" t="Include" />
+          <e p="PedidoRepository.cs" t="Include" />
+          <e p="UnitOfWork.cs" t="Include" />
         </e>
       </e>
       <e p="AcaiOnline.sln" t="IncludeFlat" />

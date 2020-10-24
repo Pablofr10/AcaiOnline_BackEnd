@@ -19,7 +19,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36c88aea-087c-4152-8937-04e32779a35b" name="Default Changelist" comment="" />
+    <list default="true" id="36c88aea-087c-4152-8937-04e32779a35b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AcaiOnline/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AcaiOnline/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AcaiOnline/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AcaiOnline/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AcaiOnline.API/AcaiOnline.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.API/AcaiOnline.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AcaiOnline.API/Extensions/ServiceCollectionExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.API/Extensions/ServiceCollectionExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AcaiOnline.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.API/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AcaiOnline.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.API/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AcaiOnline.Application/AcaiOnline.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.Application/AcaiOnline.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AcaiOnline.Core/AcaiOnline.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.Core/AcaiOnline.Core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IBaseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IBaseRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IPedidoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IPedidoRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IUnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AcaiOnline.Infrastructure/AcaiOnline.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.Infrastructure/AcaiOnline.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/BaseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/BaseRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/PedidoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/PedidoRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/UnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/UnitOfWork.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,12 +45,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/UnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.API/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/BaseRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IBaseRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IPedidoRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IUnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AcaiOnline.Infrastructure/AcaiOnlineDbContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IAcaiOnlineRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/AcaiOnlineRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IAcaiOnlineRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/AcaiOnlineRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/PedidoRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AcaiOnline.Infrastructure/Configurations/PedidoConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AcaiOnline.Infrastructure/Configurations/ClienteConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.Infrastructure/Configurations/ClienteConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AcaiOnline.Infrastructure/Configurations/CategoriaConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.API/Extensions/ServiceCollectionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.API/appsettings.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -46,6 +71,15 @@
         <option value="$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/AcaiOnlineRepository.cs" />
         <option value="$PROJECT_DIR$/AcaiOnline.Infrastructure/AcaiOnlineDbContext.cs" />
         <option value="$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IAcaiOnlineRepository.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IUnitOfWork.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IBaseRepository.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/BaseRepository.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IPedidoRepository.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/UnitOfWork.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/PedidoRepository.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.API/Extensions/ServiceCollectionExtensions.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.API/appsettings.json" />
+        <option value="$PROJECT_DIR$/AcaiOnline.API/Startup.cs" />
       </list>
     </option>
   </component>
@@ -109,14 +143,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603504196329</updated>
-      <workItem from="1603504235721" duration="2568000" />
+      <workItem from="1603504235721" duration="3070000" />
+      <workItem from="1603550308575" duration="7929000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -128,14 +163,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2142" y="210" key="RiderGenerateDialog" timestamp="1603505859076">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state x="552" y="53" key="RiderGenerateDialog" timestamp="1603555109493">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="552" y="53" key="RiderGenerateDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603555109493" />
     <state x="2142" y="210" key="RiderGenerateDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603505859076" />
   </component>
 </project>
