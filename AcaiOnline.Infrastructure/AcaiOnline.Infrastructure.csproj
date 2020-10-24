@@ -6,7 +6,23 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Repositories\" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AcaiOnline.Core\AcaiOnline.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Configurations\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Configurations\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Configurations\**" />
   </ItemGroup>
 
 </Project>
