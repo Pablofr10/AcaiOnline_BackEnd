@@ -18,10 +18,7 @@ namespace AcaiOnline.Infrastructure.Repositories
 
         public async Task<IEnumerable<Pedido>> GetAll()
         {
-            IQueryable<Pedido> query = _context.Pedido
-                .Include(p => p.Adicionais)
-                .Include(p => p.PedidoProduto)
-                .ThenInclude(pr => pr.Produto);
+            IQueryable<Pedido> query = _context.Pedido;
 
             query = query
                 .AsNoTracking()
@@ -35,14 +32,7 @@ namespace AcaiOnline.Infrastructure.Repositories
 
         public async Task<Pedido> GetById(int pedidoId)
         {
-            IQueryable<Pedido> query = _context.Pedido
-                .Include(a => a.Adicionais)
-                .Include(pag => pag.Pagamento)
-                .Include(c => c.Cliente)
-                .ThenInclude(f => f.Fidelidade)
-                .Include(p => p.PedidoProduto)
-                .ThenInclude(pe => pe.Produto)
-                .Include(p => p.Pagamento);
+            IQueryable<Pedido> query = _context.Pedido;
 
             query = query
                 .AsNoTracking()

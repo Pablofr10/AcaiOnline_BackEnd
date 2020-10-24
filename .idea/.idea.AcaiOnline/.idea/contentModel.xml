@@ -12,7 +12,9 @@
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Controllers" t="Include" />
+        <e p="Controllers" t="Include">
+          <e p="PedidoController.cs" t="Include" />
+        </e>
         <e p="extensions" t="Include">
           <e p="ServiceCollectionExtensions.cs" t="Include" />
         </e>
@@ -39,7 +41,9 @@
             </e>
           </e>
         </e>
-        <e p="Services" t="Include" />
+        <e p="Services" t="Include">
+          <e p="PedidoService.cs" t="Include" />
+        </e>
         <e p="ViewModels" t="Include" />
       </e>
       <e p="AcaiOnline.Core" t="IncludeRecursive">
@@ -79,7 +83,9 @@
             <e p="IPedidoRepository.cs" t="Include" />
             <e p="IUnitOfWork.cs" t="Include" />
           </e>
-          <e p="Services" t="Include" />
+          <e p="Services" t="Include">
+            <e p="IPedidoService.cs" t="Include" />
+          </e>
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -93,6 +99,11 @@
         <e p="AcaiOnline.Infrastructure.csproj" t="IncludeRecursive" />
         <e p="AcaiOnlineDbContext.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Migrations" t="Include">
+          <e p="20201024174320_InitialCreate.cs" t="Include" />
+          <e p="20201024174320_InitialCreate.Designer.cs" t="Include" />
+          <e p="AcaiOnlineDbContextModelSnapshot.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">

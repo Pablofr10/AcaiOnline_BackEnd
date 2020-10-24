@@ -1,4 +1,6 @@
-﻿using AcaiOnline.Core.Interfaces.Repositories;
+﻿using AcaiOnline.Application.Services;
+using AcaiOnline.Core.Interfaces.Repositories;
+using AcaiOnline.Core.Interfaces.Services;
 using AcaiOnline.Infrastructure.Repositories;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -13,7 +15,7 @@ namespace AcaiOnline.API.Extensions
         }
         public static IServiceCollection AddServices(this IServiceCollection services)
         {
-            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IPedidoService, PedidoService>();
             return services;
         }
     }
