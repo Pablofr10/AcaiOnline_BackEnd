@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Pablo\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Pablo\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_AcaiOnline.1671657026.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Pablo\AppData\Roaming\JetBrains\Rider2020.1\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\Pablo\AppData\Roaming\JetBrains\Rider2020.1\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Pablo\AppData\Roaming\JetBrains\Rider2020.1\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\Pablo\Desktop\projetos\AcaiOnline\AcaiOnline" t="IncludeFlat">
+      <e p="AcaiOnline.API" t="IncludeRecursive">
+        <e p="AcaiOnline.API.csproj" t="IncludeRecursive" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="AcaiOnline.API.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="AcaiOnline.Application" t="IncludeRecursive">
+        <e p="AcaiOnline.Application.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="AcaiOnline.Application.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Services" t="Include" />
+        <e p="ViewModels" t="Include" />
+      </e>
+      <e p="AcaiOnline.Core" t="IncludeRecursive">
+        <e p="AcaiOnline.Core.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Dtos" t="Include">
+          <e p="AcompanhamentoDto.cs" t="Include" />
+          <e p="AdicionalDto.cs" t="Include" />
+          <e p="BaseDto.cs" t="Include" />
+          <e p="CategoriaDto.cs" t="Include" />
+          <e p="ClienteDto.cs" t="Include" />
+          <e p="FidelidadeDto.cs" t="Include" />
+          <e p="FiltroPedidoDto.cs" t="Include" />
+          <e p="PagamentoDto.cs" t="Include" />
+          <e p="PedidoDto.cs" t="Include" />
+          <e p="ProdutoDto.cs" t="Include" />
+        </e>
+        <e p="Entities" t="Include">
+          <e p="Acompanhamento.cs" t="Include" />
+          <e p="Adicional.cs" t="Include" />
+          <e p="BaseEntity.cs" t="Include" />
+          <e p="Categoria.cs" t="Include" />
+          <e p="CategoriaProduto.cs" t="Include" />
+          <e p="Cliente.cs" t="Include" />
+          <e p="Fidelidade.cs" t="Include" />
+          <e p="FormaPagamento.cs" t="Include" />
+          <e p="Pagamento.cs" t="Include" />
+          <e p="Pedido.cs" t="Include" />
+          <e p="PedidoProduto.cs" t="Include" />
+          <e p="Produto.cs" t="Include" />
+          <e p="StatusPedido.cs" t="Include" />
+        </e>
+        <e p="Exceptions" t="Include" />
+        <e p="Interfaces" t="Include">
+          <e p="Repositories" t="Include">
+            <e p="IAcaiOnlineRepository.cs" t="Include" />
+          </e>
+          <e p="Services" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="AcaiOnline.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="AcaiOnline.Infrastructure" t="IncludeRecursive">
+        <e p="AcaiOnline.Infrastructure.csproj" t="IncludeRecursive" />
+        <e p="AcaiOnlineDbContext.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="AcaiOnline.Infrastructure.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="AcaiOnlineRepository.cs" t="Include" />
+        </e>
+      </e>
+      <e p="AcaiOnline.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
