@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AcaiOnline.Application\AcaiOnline.Application.csproj" />
     <ProjectReference Include="..\AcaiOnline.Core\AcaiOnline.Core.csproj" />
     <ProjectReference Include="..\AcaiOnline.Infrastructure\AcaiOnline.Infrastructure.csproj" />
   </ItemGroup>
