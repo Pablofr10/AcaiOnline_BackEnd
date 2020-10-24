@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.9" />
   </ItemGroup>
 
   <ItemGroup>
@@ -15,6 +16,7 @@
 
   <ItemGroup>
     <Compile Remove="Configurations\**" />
+    <Compile Remove="Repositories\AcaiOnlineRepository.cs" />
   </ItemGroup>
 
   <ItemGroup>
