@@ -7,35 +7,35 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AcaiOnline.Infrastructure.Repositories
 {
-    public class PedidoRepository : BaseRepository<Pedido>, IPedidoRepository
+    public class ProdutoRepository : IProdutoRepository
     {
         private readonly AcaiOnlineDbContext _context;
 
-        public PedidoRepository(AcaiOnlineDbContext context): base (context)
+        public ProdutoRepository(AcaiOnlineDbContext context)
         {
             _context = context;
         }
-
-        public async Task<IEnumerable<Pedido>> GetAllPedidos()
+        
+        public async Task<IEnumerable<Produto>> GetAllProdutos()
         {
-            IQueryable<Pedido> query = _context.Pedido;
+            IQueryable<Produto> query = _context.Produto;
 
             query = query
                 .AsNoTracking()
-                .Where(c => c.DataExclusao == null)
+                .Where(p => p.DataExclusao != null)
                 .OrderByDescending(c => c.Id);
 
             return await query.ToArrayAsync();
         }
 
-        public async Task<Pedido> GetPedidoById(int pedidoId)
+        public async Task<Produto> GetProdutoById(int produtoId)
         {
-            IQueryable<Pedido> query = _context.Pedido;
-
+            IQueryable<Produto> query = _context.Produto;
+            
             query = query
                 .AsNoTracking()
-                .OrderBy(c => c.Id)
-                .Where(c => c.Id == pedidoId && c.DataExclusao == null);
+                .Where(p => p.Id == produtoId && p.DataExclusao != null)
+                .OrderByDescending(c => c.Id);
 
             return await query.FirstOrDefaultAsync();
         }

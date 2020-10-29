@@ -14,14 +14,14 @@ namespace AcaiOnline.Application.Services
         {
             _repository = repository;
         }
-        public Task<IEnumerable<Pedido>> GetAllPedidos()
+        public async Task<IEnumerable<Pedido>> GetAllPedidos()
         {
-            return _repository.PedidoRepository.GetAll();
+            return await _repository.PedidoRepository.GetAllPedidos();
         }
 
-        public Task<Pedido> GetPedidoById(int id)
+        public async Task<Pedido> GetPedidoById(int id)
         {
-            throw new System.NotImplementedException();
+            return await _repository.PedidoRepository.GetPedidoById(id);
         }
 
         public Task<Pedido> AddPedido(Pedido pedido)

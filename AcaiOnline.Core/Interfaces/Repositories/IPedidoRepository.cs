@@ -7,7 +7,7 @@ namespace AcaiOnline.Core.Interfaces.Repositories
 {
     public interface IPedidoRepository
     {
-        Task<IEnumerable<Pedido>> GetAll();
-        Task<Pedido> GetById(int pedidoId);
+        Task<IEnumerable<Pedido>> GetAllPedidos();
+        Task<Pedido> GetPedidoById(int pedidoId);
     }
 }
