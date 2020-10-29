@@ -7,11 +7,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AcaiOnline.Infrastructure.Repositories
 {
-    public class ProdutoRepository : IProdutoRepository
+    public class ProdutoRepository : BaseRepository<Produto>, IProdutoRepository
     {
         private readonly AcaiOnlineDbContext _context;
 
-        public ProdutoRepository(AcaiOnlineDbContext context)
+        public ProdutoRepository(AcaiOnlineDbContext context): base(context)
         {
             _context = context;
         }
@@ -38,6 +38,11 @@ namespace AcaiOnline.Infrastructure.Repositories
                 .OrderByDescending(c => c.Id);
 
             return await query.FirstOrDefaultAsync();
+        }
+
+        public void AddProduto(Produto produto)
+        {
+             _context.Add(produto);
         }
     }
 }

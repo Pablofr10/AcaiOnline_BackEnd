@@ -8,5 +8,6 @@ namespace AcaiOnline.Core.Interfaces.Repositories
     {
         Task<IEnumerable<Produto>> GetAllProdutos();
         Task<Produto> GetProdutoById(int pedidoId);
+        void AddProduto(Produto produto);
     }
 }

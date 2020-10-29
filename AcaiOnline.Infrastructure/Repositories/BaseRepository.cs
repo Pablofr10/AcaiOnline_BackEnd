@@ -17,7 +17,7 @@ namespace AcaiOnline.Infrastructure.Repositories
 
         public void Add(T entity)
         {
-            _context.AddAsync(entity);
+            _context.Add(entity);
         }
 
         public void Update(T entity)

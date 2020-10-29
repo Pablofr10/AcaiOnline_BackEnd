@@ -9,6 +9,7 @@
     <e p="C:\Users\Pablo\Desktop\projetos\AcaiOnline\AcaiOnline" t="IncludeFlat">
       <e p="AcaiOnline.API" t="IncludeRecursive">
         <e p="AcaiOnline.API.csproj" t="IncludeRecursive" />
+        <e p="AcaiOnline.API.csproj.DotSettings" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
@@ -44,6 +45,7 @@
         </e>
         <e p="Services" t="Include">
           <e p="PedidoService.cs" t="Include" />
+          <e p="ProdutoService.cs" t="Include" />
         </e>
         <e p="ViewModels" t="Include" />
       </e>
@@ -90,6 +92,7 @@
           </e>
           <e p="Services" t="Include">
             <e p="IPedidoService.cs" t="Include" />
+            <e p="IProdutoService.cs" t="Include" />
           </e>
         </e>
         <e p="obj" t="ExcludeRecursive">

@@ -16,7 +16,7 @@ namespace AcaiOnline.API.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetValue()
+        public async Task<IActionResult> Get()
         {
             var pedidos = await _service.GetAllPedidos();
             return Ok(pedidos);
@@ -24,7 +24,7 @@ namespace AcaiOnline.API.Controllers
 
         [HttpGet("{id}")]
 
-        public async Task<IActionResult> GetValue(int id)
+        public async Task<IActionResult> GetById(int id)
         {
             var pedido = await _service.GetPedidoById(id);
 
