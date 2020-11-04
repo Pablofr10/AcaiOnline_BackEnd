@@ -47,7 +47,9 @@
           <e p="PedidoService.cs" t="Include" />
           <e p="ProdutoService.cs" t="Include" />
         </e>
-        <e p="ViewModels" t="Include" />
+        <e p="ViewModels" t="Include">
+          <e p="ProdutoViewModel.cs" t="Include" />
+        </e>
       </e>
       <e p="AcaiOnline.Core" t="IncludeRecursive">
         <e p="AcaiOnline.Core.csproj" t="IncludeRecursive" />

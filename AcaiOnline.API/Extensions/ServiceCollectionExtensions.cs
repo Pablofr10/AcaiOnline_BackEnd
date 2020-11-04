@@ -2,6 +2,7 @@
 using AcaiOnline.Core.Interfaces.Repositories;
 using AcaiOnline.Core.Interfaces.Services;
 using AcaiOnline.Infrastructure.Repositories;
+using AutoMapper;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace AcaiOnline.API.Extensions
