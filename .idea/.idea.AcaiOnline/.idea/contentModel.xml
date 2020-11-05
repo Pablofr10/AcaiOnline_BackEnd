@@ -9,11 +9,13 @@
     <e p="C:\Users\Pablo\Desktop\projetos\AcaiOnline\AcaiOnline" t="IncludeFlat">
       <e p="AcaiOnline.API" t="IncludeRecursive">
         <e p="AcaiOnline.API.csproj" t="IncludeRecursive" />
+        <e p="AcaiOnline.API.csproj.DotSettings" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="PedidoController.cs" t="Include" />
+          <e p="ProdutoController.cs" t="Include" />
         </e>
         <e p="extensions" t="Include">
           <e p="ServiceCollectionExtensions.cs" t="Include" />
@@ -43,8 +45,11 @@
         </e>
         <e p="Services" t="Include">
           <e p="PedidoService.cs" t="Include" />
+          <e p="ProdutoService.cs" t="Include" />
         </e>
-        <e p="ViewModels" t="Include" />
+        <e p="ViewModels" t="Include">
+          <e p="ProdutoViewModel.cs" t="Include" />
+        </e>
       </e>
       <e p="AcaiOnline.Core" t="IncludeRecursive">
         <e p="AcaiOnline.Core.csproj" t="IncludeRecursive" />
@@ -77,14 +82,19 @@
           <e p="StatusPedido.cs" t="Include" />
         </e>
         <e p="Exceptions" t="Include" />
+        <e p="Helpers" t="Include">
+          <e p="AutoMapper.cs" t="Include" />
+        </e>
         <e p="Interfaces" t="Include">
           <e p="Repositories" t="Include">
             <e p="IBaseRepository.cs" t="Include" />
             <e p="IPedidoRepository.cs" t="Include" />
+            <e p="IProdutoRepository.cs" t="Include" />
             <e p="IUnitOfWork.cs" t="Include" />
           </e>
           <e p="Services" t="Include">
             <e p="IPedidoService.cs" t="Include" />
+            <e p="IProdutoService.cs" t="Include" />
           </e>
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -114,6 +124,7 @@
         <e p="Repositories" t="Include">
           <e p="BaseRepository.cs" t="Include" />
           <e p="PedidoRepository.cs" t="Include" />
+          <e p="ProdutoRepository.cs" t="Include" />
           <e p="UnitOfWork.cs" t="Include" />
         </e>
       </e>

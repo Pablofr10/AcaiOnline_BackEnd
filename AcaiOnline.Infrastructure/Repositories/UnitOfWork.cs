@@ -7,6 +7,7 @@ namespace AcaiOnline.Infrastructure.Repositories
     {
         private readonly AcaiOnlineDbContext _context;
         private IPedidoRepository _pedidoRepository;
+        private IProdutoRepository _produtoRepository;
 
         public UnitOfWork(AcaiOnlineDbContext context)
         {
@@ -18,6 +19,14 @@ namespace AcaiOnline.Infrastructure.Repositories
             get
             {
                 return _pedidoRepository ??= new PedidoRepository(_context);
+            }
+        }
+        
+        public IProdutoRepository ProdutoRepository
+        {
+            get
+            {
+                return _produtoRepository ??= new ProdutoRepository(_context);
             }
         }
         

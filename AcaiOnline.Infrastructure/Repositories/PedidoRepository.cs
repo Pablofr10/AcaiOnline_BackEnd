@@ -16,7 +16,7 @@ namespace AcaiOnline.Infrastructure.Repositories
             _context = context;
         }
 
-        public async Task<IEnumerable<Pedido>> GetAll()
+        public async Task<IEnumerable<Pedido>> GetAllPedidos()
         {
             IQueryable<Pedido> query = _context.Pedido;
 
@@ -25,12 +25,10 @@ namespace AcaiOnline.Infrastructure.Repositories
                 .Where(c => c.DataExclusao == null)
                 .OrderByDescending(c => c.Id);
 
-            var result = await query.ToArrayAsync();
-
             return await query.ToArrayAsync();
         }
 
-        public async Task<Pedido> GetById(int pedidoId)
+        public async Task<Pedido> GetPedidoById(int pedidoId)
         {
             IQueryable<Pedido> query = _context.Pedido;
 

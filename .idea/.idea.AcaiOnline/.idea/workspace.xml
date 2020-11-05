@@ -20,18 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36c88aea-087c-4152-8937-04e32779a35b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AcaiOnline.API/Controllers/PedidoController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AcaiOnline.Application/Services/PedidoService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Services/IPedidoService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AcaiOnline.Application/ViewModels/ProdutoViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AcaiOnline/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AcaiOnline/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AcaiOnline/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AcaiOnline/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AcaiOnline.API/AcaiOnline.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.API/AcaiOnline.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AcaiOnline.API/Controllers/ProdutoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.API/Controllers/ProdutoController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AcaiOnline.API/Extensions/ServiceCollectionExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.API/Extensions/ServiceCollectionExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AcaiOnline.API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.API/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AcaiOnline.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.API/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AcaiOnline.Application/AcaiOnline.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.Application/AcaiOnline.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AcaiOnline.Application/Services/ProdutoService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.Application/Services/ProdutoService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AcaiOnline.Core/AcaiOnline.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.Core/AcaiOnline.Core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AcaiOnline.Core/Entities/CategoriaProduto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.Core/Entities/CategoriaProduto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AcaiOnline.Core/Entities/PedidoProduto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.Core/Entities/PedidoProduto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AcaiOnline.Core/Entities/Produto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.Core/Entities/Produto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AcaiOnline.Core/Helpers/AutoMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.Core/Helpers/AutoMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IProdutoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IProdutoRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Services/IProdutoService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Services/IProdutoService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AcaiOnline.Infrastructure/AcaiOnline.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.Infrastructure/AcaiOnline.Infrastructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/PedidoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/PedidoRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AcaiOnline.Infrastructure/AcaiOnlineDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.Infrastructure/AcaiOnlineDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/ProdutoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/ProdutoRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,27 +47,52 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Estrutura" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/UnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AcaiOnline.API/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AcaiOnline.Application/Services/PedidoService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.Core/Entities/Pedido.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.Core/Entities/BaseEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/BaseRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Services/IPedidoService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IBaseRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IPedidoRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AcaiOnline.API/Controllers/PedidoController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.Core/Entities/Produto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IUnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AcaiOnline.API/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.Core/Entities/CategoriaProduto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.Core/Dtos/PedidoDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/ProdutoRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.Core/Dtos/BaseDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.Core/Dtos/ProdutoDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IProdutoRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.API/Controllers/ProdutoController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AcaiOnline.Infrastructure/AcaiOnlineDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/156C0238-EF8C-47E3-80EA-18498A6CFBFF/8/ServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.Core/Helpers/AutoMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IAcaiOnlineRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/AcaiOnlineRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/PedidoRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A9C37662-579A-499A-A4DE-B3C85349280D/25F/AsyncMethodBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AcaiOnline.Infrastructure/Configurations/PedidoConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/441B1F1D-0007-4533-BF4B-294EFD4F790B/F3/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AcaiOnline.Infrastructure/Configurations/ClienteConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AcaiOnline.Infrastructure/Configurations/CategoriaConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A9C37662-579A-499A-A4DE-B3C85349280D/2E/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.API/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D5EDF430-AB5A-4412-A0B9-E75F3C32EB0A/A/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.Application/Services/ProdutoService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Services/IProdutoService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.Application/ViewModels/ProdutoViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcaiOnline.API/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A9C37662-579A-499A-A4DE-B3C85349280D/14E/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AcaiOnline.API/Extensions/ServiceCollectionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AcaiOnline.API/appsettings.json" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -73,19 +106,31 @@
         <option value="$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/AcaiOnlineRepository.cs" />
         <option value="$PROJECT_DIR$/AcaiOnline.Infrastructure/AcaiOnlineDbContext.cs" />
         <option value="$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IAcaiOnlineRepository.cs" />
-        <option value="$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IUnitOfWork.cs" />
         <option value="$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IBaseRepository.cs" />
-        <option value="$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/BaseRepository.cs" />
-        <option value="$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IPedidoRepository.cs" />
-        <option value="$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/UnitOfWork.cs" />
         <option value="$PROJECT_DIR$/AcaiOnline.API/appsettings.json" />
-        <option value="$PROJECT_DIR$/AcaiOnline.API/Startup.cs" />
         <option value="$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Services/IPedidoService.cs" />
-        <option value="$PROJECT_DIR$/AcaiOnline.API/Extensions/ServiceCollectionExtensions.cs" />
-        <option value="$PROJECT_DIR$/AcaiOnline.API/Controllers/PedidoController.cs" />
-        <option value="$PROJECT_DIR$/AcaiOnline.API/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IPedidoRepository.cs" />
         <option value="$PROJECT_DIR$/AcaiOnline.Application/Services/PedidoService.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.Application/Services/ProdutoRepository.cs" />
         <option value="$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/PedidoRepository.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/UnitOfWork.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IUnitOfWork.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Services/ProdutoRepository.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Services/IProdutoRepository.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/BaseRepository.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Repositories/IProdutoRepository.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.Core/Interfaces/Services/IProdutoService.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.API/Controllers/PedidoController.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/ProdutoRepository.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.Application/ViewModels/ProdutoViewModel.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.API/Extensions/ServiceCollectionExtensions.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.API/Startup.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.API/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/AcaiOnline.Core/Entities/Produto.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.Application/Services/ProdutoService.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.Core/Helpers/AutoMapper.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.Core/Dtos/ProdutoDto.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.API/Controllers/ProdutoController.cs" />
       </list>
     </option>
   </component>
@@ -108,6 +153,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.AcaiOnline.API">
     <configuration name="AcaiOnline.API" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -152,7 +198,11 @@
       <option name="presentableId" value="Default" />
       <updated>1603504196329</updated>
       <workItem from="1603504235721" duration="3070000" />
-      <workItem from="1603550308575" duration="10767000" />
+      <workItem from="1603550308575" duration="12697000" />
+      <workItem from="1603922129403" duration="15493000" />
+      <workItem from="1603947644775" duration="1289000" />
+      <workItem from="1603951133485" duration="788000" />
+      <workItem from="1604526636809" duration="3890000" />
     </task>
     <servers />
   </component>
@@ -177,121 +227,120 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1603566238786">
+    <state width="533" height="464" key="DebuggerActiveHint" timestamp="1604530524032">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603566238786" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1603566238785">
+    <state width="533" height="464" key="DebuggerActiveHint/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604530524032" />
+    <state width="1323" height="250" key="GridCell.Tab.0.bottom" timestamp="1604530549895">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603566238785" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1603566238785">
+    <state width="1323" height="250" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604530549895" />
+    <state width="1323" height="281" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604530283347" />
+    <state width="1323" height="250" key="GridCell.Tab.0.center" timestamp="1604530549895">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603566238785" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1603566238786">
+    <state width="1323" height="250" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604530549895" />
+    <state width="1323" height="281" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604530283347" />
+    <state width="1323" height="250" key="GridCell.Tab.0.left" timestamp="1604530549894">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603566238786" />
-    <state width="1323" height="250" key="GridCell.Tab.1.bottom" timestamp="1603566030143">
+    <state width="1323" height="250" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604530549894" />
+    <state width="1323" height="281" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604530283347" />
+    <state width="1323" height="250" key="GridCell.Tab.0.right" timestamp="1604530549895">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603566030143" />
-    <state width="1323" height="250" key="GridCell.Tab.1.center" timestamp="1603566030143">
+    <state width="1323" height="250" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604530549895" />
+    <state width="1323" height="281" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604530283347" />
+    <state width="1323" height="250" key="GridCell.Tab.1.bottom" timestamp="1604530554854">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603566030143" />
-    <state width="1323" height="250" key="GridCell.Tab.1.left" timestamp="1603566030143">
+    <state width="1323" height="250" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604530554854" />
+    <state width="1323" height="250" key="GridCell.Tab.1.center" timestamp="1604530554853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603566030143" />
-    <state width="1323" height="250" key="GridCell.Tab.1.right" timestamp="1603566030143">
+    <state width="1323" height="250" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604530554853" />
+    <state width="1323" height="250" key="GridCell.Tab.1.left" timestamp="1604530554853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603566030143" />
-    <state width="1323" height="250" key="GridCell.Tab.2.bottom" timestamp="1603566030143">
+    <state width="1323" height="250" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604530554853" />
+    <state width="1323" height="250" key="GridCell.Tab.1.right" timestamp="1604530554854">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.2.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603566030143" />
-    <state width="1323" height="250" key="GridCell.Tab.2.center" timestamp="1603566030143">
+    <state width="1323" height="250" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604530554854" />
+    <state width="1323" height="250" key="GridCell.Tab.2.bottom" timestamp="1604530549631">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.2.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603566030143" />
-    <state width="1323" height="250" key="GridCell.Tab.2.left" timestamp="1603566030143">
+    <state width="1323" height="250" key="GridCell.Tab.2.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604530549631" />
+    <state width="1323" height="250" key="GridCell.Tab.2.center" timestamp="1604530549630">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.2.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603566030143" />
-    <state width="1323" height="250" key="GridCell.Tab.2.right" timestamp="1603566030143">
+    <state width="1323" height="250" key="GridCell.Tab.2.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604530549630" />
+    <state width="1323" height="250" key="GridCell.Tab.2.left" timestamp="1604530549630">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.2.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603566030143" />
-    <state width="1323" height="250" key="GridCell.Tab.3.bottom" timestamp="1603566030144">
+    <state width="1323" height="250" key="GridCell.Tab.2.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604530549630" />
+    <state width="1323" height="250" key="GridCell.Tab.2.right" timestamp="1604530549631">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.3.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603566030144" />
-    <state width="1323" height="250" key="GridCell.Tab.3.center" timestamp="1603566030143">
+    <state width="1323" height="250" key="GridCell.Tab.2.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604530549631" />
+    <state width="1323" height="250" key="GridCell.Tab.3.bottom" timestamp="1604530549631">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.3.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603566030143" />
-    <state width="1323" height="250" key="GridCell.Tab.3.left" timestamp="1603566030143">
+    <state width="1323" height="250" key="GridCell.Tab.3.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604530549631" />
+    <state width="1323" height="250" key="GridCell.Tab.3.center" timestamp="1604530549631">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.3.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603566030143" />
-    <state width="1323" height="250" key="GridCell.Tab.3.right" timestamp="1603566030143">
+    <state width="1323" height="250" key="GridCell.Tab.3.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604530549631" />
+    <state width="1323" height="250" key="GridCell.Tab.3.left" timestamp="1604530549631">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.3.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603566030143" />
-    <state width="1323" height="250" key="GridCell.Tab.4.bottom" timestamp="1603566030144">
+    <state width="1323" height="250" key="GridCell.Tab.3.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604530549631" />
+    <state width="1323" height="250" key="GridCell.Tab.3.right" timestamp="1604530549631">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.4.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603566030144" />
-    <state width="1323" height="250" key="GridCell.Tab.4.center" timestamp="1603566030144">
+    <state width="1323" height="250" key="GridCell.Tab.3.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604530549631" />
+    <state width="1323" height="250" key="GridCell.Tab.4.bottom" timestamp="1604530549632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.4.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603566030144" />
-    <state width="1323" height="250" key="GridCell.Tab.4.left" timestamp="1603566030144">
+    <state width="1323" height="250" key="GridCell.Tab.4.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604530549632" />
+    <state width="1323" height="250" key="GridCell.Tab.4.center" timestamp="1604530549631">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.4.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603566030144" />
-    <state width="1323" height="250" key="GridCell.Tab.4.right" timestamp="1603566030144">
+    <state width="1323" height="250" key="GridCell.Tab.4.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604530549631" />
+    <state width="1323" height="250" key="GridCell.Tab.4.left" timestamp="1604530549631">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.4.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603566030144" />
-    <state x="552" y="53" key="RiderGenerateDialog" timestamp="1603565421038">
+    <state width="1323" height="250" key="GridCell.Tab.4.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604530549631" />
+    <state width="1323" height="250" key="GridCell.Tab.4.right" timestamp="1604530549631">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="552" y="53" key="RiderGenerateDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603565421038" />
+    <state width="1323" height="250" key="GridCell.Tab.4.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604530549631" />
+    <state x="552" y="53" key="RiderGenerateDialog" timestamp="1603935871674">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="552" y="53" key="RiderGenerateDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603935871674" />
     <state x="2142" y="210" key="RiderGenerateDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1603505859076" />
     <state x="444" y="74" key="RollbackChangesDialog" timestamp="1603565918307">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="444" y="74" key="RollbackChangesDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603565918307" />
+    <state x="92" y="92" width="1182" height="544" key="VCS.FileHistoryDialog" timestamp="1604529068924">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="VCS.FileHistoryDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604529068924" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/PedidoRepository.cs</url>
-          <line>33</line>
-          <properties documentPath="$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/PedidoRepository.cs" initialLine="36">
-            <startOffsets>
-              <option value="980" />
-            </startOffsets>
-            <endOffsets>
-              <option value="981" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/PedidoRepository.cs</url>
           <line>19</line>
           <properties documentPath="$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/PedidoRepository.cs" initialLine="19">
             <startOffsets>
-              <option value="587" />
+              <option value="594" />
             </startOffsets>
             <endOffsets>
-              <option value="588" />
+              <option value="595" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="2" />
@@ -301,13 +350,130 @@
           <line>20</line>
           <properties documentPath="$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/PedidoRepository.cs" initialLine="20">
             <startOffsets>
-              <option value="601" />
+              <option value="608" />
             </startOffsets>
             <endOffsets>
-              <option value="644" />
+              <option value="651" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/AcaiOnline.API/Controllers/ProdutoController.cs</url>
+          <line>45</line>
+          <properties documentPath="$PROJECT_DIR$/AcaiOnline.API/Controllers/ProdutoController.cs" initialLine="40">
+            <startOffsets>
+              <option value="1193" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1194" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/AcaiOnline.API/Controllers/ProdutoController.cs</url>
+          <line>46</line>
+          <properties documentPath="$PROJECT_DIR$/AcaiOnline.API/Controllers/ProdutoController.cs" initialLine="41">
+            <startOffsets>
+              <option value="1207" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1271" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/AcaiOnline.API/Controllers/ProdutoController.cs</url>
+          <line>48</line>
+          <properties documentPath="$PROJECT_DIR$/AcaiOnline.API/Controllers/ProdutoController.cs" initialLine="43">
+            <startOffsets>
+              <option value="1285" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1304" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/AcaiOnline.Application/Services/ProdutoService.cs</url>
+          <line>19</line>
+          <properties documentPath="$PROJECT_DIR$/AcaiOnline.Application/Services/ProdutoService.cs" initialLine="19">
+            <startOffsets>
+              <option value="556" />
+            </startOffsets>
+            <endOffsets>
+              <option value="624" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/AcaiOnline.API/Controllers/ProdutoController.cs</url>
+          <line>23</line>
+          <properties documentPath="$PROJECT_DIR$/AcaiOnline.API/Controllers/ProdutoController.cs" initialLine="19">
+            <startOffsets>
+              <option value="656" />
+            </startOffsets>
+            <endOffsets>
+              <option value="657" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/ProdutoRepository.cs</url>
+          <line>29</line>
+          <properties documentPath="$PROJECT_DIR$/AcaiOnline.Infrastructure/Repositories/ProdutoRepository.cs" initialLine="28">
+            <startOffsets>
+              <option value="989" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1014" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/441B1F1D-0007-4533-BF4B-294EFD4F790B/F3/ActionMethodExecutor.cs</url>
+          <line>211</line>
+          <properties documentPath="$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/441B1F1D-0007-4533-BF4B-294EFD4F790B/F3/ActionMethodExecutor.cs" initialLine="211">
+            <startOffsets>
+              <option value="8628" />
+            </startOffsets>
+            <endOffsets>
+              <option value="8629" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/AcaiOnline.Application/Services/ProdutoService.cs</url>
+          <line>26</line>
+          <properties documentPath="$PROJECT_DIR$/AcaiOnline.Application/Services/ProdutoService.cs" initialLine="26">
+            <startOffsets>
+              <option value="749" />
+            </startOffsets>
+            <endOffsets>
+              <option value="815" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/AcaiOnline.API/Controllers/ProdutoController.cs</url>
+          <line>31</line>
+          <properties documentPath="$PROJECT_DIR$/AcaiOnline.API/Controllers/ProdutoController.cs" initialLine="31">
+            <startOffsets>
+              <option value="854" />
+            </startOffsets>
+            <endOffsets>
+              <option value="855" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

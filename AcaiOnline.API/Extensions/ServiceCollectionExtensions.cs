@@ -2,6 +2,7 @@
 using AcaiOnline.Core.Interfaces.Repositories;
 using AcaiOnline.Core.Interfaces.Services;
 using AcaiOnline.Infrastructure.Repositories;
+using AutoMapper;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace AcaiOnline.API.Extensions
@@ -16,6 +17,7 @@ namespace AcaiOnline.API.Extensions
         public static IServiceCollection AddServices(this IServiceCollection services)
         {
             services.AddScoped<IPedidoService, PedidoService>();
+            services.AddScoped<IProdutoService, ProdutoService>();
             return services;
         }
     }

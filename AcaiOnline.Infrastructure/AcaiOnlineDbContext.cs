@@ -1,4 +1,5 @@
-﻿using AcaiOnline.Entities.Models;
+﻿using AcaiOnline.Core.Entities;
+using AcaiOnline.Entities.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace AcaiOnline.Infrastructure

@@ -1,5 +1,6 @@
 using AcaiOnline.API.Extensions;
 using AcaiOnline.Infrastructure;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -21,14 +22,17 @@ namespace AcaiOnline.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services
-                .AddRepository()
-                .AddServices();
             services.AddDbContext<AcaiOnlineDbContext>(config =>
             {
                 config.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
-            services.AddControllers();
+            services
+                .AddRepository()
+                .AddServices();
+            services.AddAutoMapper(typeof(Startup));
+            services.AddControllers().AddNewtonsoftJson(options =>
+                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+            );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,7 +43,7 @@ namespace AcaiOnline.API
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseRouting();
 
