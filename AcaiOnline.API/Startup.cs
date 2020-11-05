@@ -29,7 +29,7 @@ namespace AcaiOnline.API
             services
                 .AddRepository()
                 .AddServices();
-            services.AddAutoMapper(typeof(Startup));
+            services.AddAutoMapper(typeof(Core.Helpers.AutoMapper)));
             services.AddControllers().AddNewtonsoftJson(options =>
                 options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
             );
