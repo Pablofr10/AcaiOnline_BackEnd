@@ -37,7 +37,9 @@ namespace AcaiOnline.API.Controllers
                 return NotFound("Pedido não encontrado");
             }
 
-            return Ok(produto);
+            var pedidoRetorno = _mapper.Map<ProdutoDto>(produto);
+
+            return Ok(pedidoRetorno);
         }
         
         [HttpPost]
