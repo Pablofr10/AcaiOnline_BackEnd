@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36c88aea-087c-4152-8937-04e32779a35b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AcaiOnline/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AcaiOnline/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AcaiOnline.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.API/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AcaiOnline.API/Controllers/ProdutoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.API/Controllers/ProdutoController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,10 +108,10 @@
         <option value="$PROJECT_DIR$/AcaiOnline.API/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/AcaiOnline.Core/Entities/Produto.cs" />
         <option value="$PROJECT_DIR$/AcaiOnline.Application/Services/ProdutoService.cs" />
-        <option value="$PROJECT_DIR$/AcaiOnline.Core/Helpers/AutoMapper.cs" />
         <option value="$PROJECT_DIR$/AcaiOnline.Core/Dtos/ProdutoDto.cs" />
-        <option value="$PROJECT_DIR$/AcaiOnline.API/Controllers/ProdutoController.cs" />
         <option value="$PROJECT_DIR$/AcaiOnline.API/Startup.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.Core/Helpers/AutoMapper.cs" />
+        <option value="$PROJECT_DIR$/AcaiOnline.API/Controllers/ProdutoController.cs" />
       </list>
     </option>
   </component>
@@ -185,6 +184,7 @@
       <workItem from="1603947644775" duration="1289000" />
       <workItem from="1603951133485" duration="788000" />
       <workItem from="1604526636809" duration="7746000" />
+      <workItem from="1604544024175" duration="279000" />
     </task>
     <servers />
   </component>
@@ -346,39 +346,39 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/AcaiOnline.API/Controllers/ProdutoController.cs</url>
-          <line>45</line>
+          <line>47</line>
           <properties documentPath="$PROJECT_DIR$/AcaiOnline.API/Controllers/ProdutoController.cs" initialLine="40">
             <startOffsets>
-              <option value="1193" />
+              <option value="1266" />
             </startOffsets>
             <endOffsets>
-              <option value="1194" />
+              <option value="1267" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/AcaiOnline.API/Controllers/ProdutoController.cs</url>
-          <line>46</line>
+          <line>48</line>
           <properties documentPath="$PROJECT_DIR$/AcaiOnline.API/Controllers/ProdutoController.cs" initialLine="41">
             <startOffsets>
-              <option value="1207" />
+              <option value="1280" />
             </startOffsets>
             <endOffsets>
-              <option value="1271" />
+              <option value="1344" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/AcaiOnline.API/Controllers/ProdutoController.cs</url>
-          <line>48</line>
+          <line>50</line>
           <properties documentPath="$PROJECT_DIR$/AcaiOnline.API/Controllers/ProdutoController.cs" initialLine="43">
             <startOffsets>
-              <option value="1285" />
+              <option value="1358" />
             </startOffsets>
             <endOffsets>
-              <option value="1304" />
+              <option value="1377" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="6" />
