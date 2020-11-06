@@ -45,14 +45,11 @@ namespace AcaiOnline.API.Controllers
         }
         
         [HttpPost]
-
         public async Task<IActionResult> Post(ProdutoDto produtoAdicionar)
         {
             try
             {
                 var produto = _mapper.Map<Produto>(produtoAdicionar);
-
-                List<CategoriaProduto> categoriaAdicionar = new List<CategoriaProduto>();
 
                 foreach (var categoria in produtoAdicionar.Categoria)
                 {
@@ -60,10 +57,8 @@ namespace AcaiOnline.API.Controllers
                     {
                         CategoriaId = categoria.Id
                     };
-                    categoriaAdicionar.Add(addCategoria);
+                    produto.CategoriaProduto.Add(addCategoria);
                 }
-
-                produto.CategoriaProduto.Add(categoriaAdicionar);
 
                 var produtoSalvar = await _service.AddProduto(produto);
 
