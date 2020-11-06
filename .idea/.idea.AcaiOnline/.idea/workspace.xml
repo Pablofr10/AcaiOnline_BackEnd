@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36c88aea-087c-4152-8937-04e32779a35b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/AcaiOnline.API/Controllers/ProdutoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AcaiOnline.API/Controllers/ProdutoController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AcaiOnline/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AcaiOnline/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +184,8 @@
       <workItem from="1603947644775" duration="1289000" />
       <workItem from="1603951133485" duration="788000" />
       <workItem from="1604526636809" duration="7746000" />
-      <workItem from="1604544024175" duration="279000" />
+      <workItem from="1604544024175" duration="1463000" />
+      <workItem from="1604582201721" duration="1010000" />
     </task>
     <servers />
   </component>
@@ -213,25 +214,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="533" height="464" key="DebuggerActiveHint/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604530524032" />
-    <state width="1323" height="250" key="GridCell.Tab.0.bottom" timestamp="1604538837966">
+    <state width="1323" height="143" key="GridCell.Tab.0.bottom" timestamp="1604545604205">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604538837966" />
+    <state width="1323" height="143" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604545604204" />
     <state width="1323" height="281" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604530283347" />
-    <state width="1323" height="250" key="GridCell.Tab.0.center" timestamp="1604538837966">
+    <state width="1323" height="143" key="GridCell.Tab.0.center" timestamp="1604545604193">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604538837966" />
+    <state width="1323" height="143" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604545604193" />
     <state width="1323" height="281" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604530283347" />
-    <state width="1323" height="250" key="GridCell.Tab.0.left" timestamp="1604538837966">
+    <state width="1323" height="143" key="GridCell.Tab.0.left" timestamp="1604545604186">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604538837966" />
+    <state width="1323" height="143" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604545604186" />
     <state width="1323" height="281" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604530283347" />
-    <state width="1323" height="250" key="GridCell.Tab.0.right" timestamp="1604538837966">
+    <state width="1323" height="143" key="GridCell.Tab.0.right" timestamp="1604545604200">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="250" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604538837966" />
+    <state width="1323" height="143" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604545604200" />
     <state width="1323" height="281" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604530283347" />
     <state width="1323" height="250" key="GridCell.Tab.1.bottom" timestamp="1604538837967">
       <screen x="0" y="0" width="1366" height="728" />
