@@ -10,10 +10,16 @@ namespace AcaiOnline.Core.Helpers
     {
         public AutoMapper()
         {
-            CreateMap<Produto, ProdutoDto>()
-                .ForMember(dest => dest.Categoria, opt =>
-                    opt.MapFrom(src => src.CategoriaProduto.Select(r => r.Categoria).ToList()))
-                .ReverseMap();
+            CreateMap<Produto, ProdutoDto > ().ForMember(dest => dest.Categoria, opt => 
+                opt.MapFrom(src => src.CategoriaProduto.Select(c => c.Categoria)));
+
+            CreateMap<Categoria, CategoriaDto>()
+                .ForMember(dest => dest.Produto, opt =>
+                    opt.MapFrom(src => src.CategoriaProdutos.Select(r => new ProdutoDto { Id = r.ProdutoId }).ToList()));
+
+            CreateMap<CategoriaDto, Categoria>()
+                .ForMember(dest => dest.CategoriaProdutos, opt =>
+                    opt.MapFrom(src => src.Produto.Select(r => new CategoriaProduto { ProdutoId = r.Id, CategoriaId =  src.Id}).ToList()));
 
         }
     }

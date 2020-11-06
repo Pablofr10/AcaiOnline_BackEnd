@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using AcaiOnline.Core.Entities;
 using AcaiOnline.Core.Interfaces.Repositories;
 using AcaiOnline.Core.Interfaces.Services;
 using AcaiOnline.Entities.Models;

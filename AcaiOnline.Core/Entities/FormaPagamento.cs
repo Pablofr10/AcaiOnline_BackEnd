@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace AcaiOnline.Entities.Models
+﻿namespace AcaiOnline.Core.Entities
 {
     public enum FormaPagamento
     {

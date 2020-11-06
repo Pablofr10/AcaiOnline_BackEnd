@@ -1,4 +1,6 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 using AcaiOnline.Core.Dtos;
 using AcaiOnline.Core.Entities;
 using AcaiOnline.Core.Interfaces.Services;
@@ -44,16 +46,39 @@ namespace AcaiOnline.API.Controllers
         
         [HttpPost]
 
-        public async Task<IActionResult> Post(Produto produtoAdicionar)
+        public async Task<IActionResult> Post(ProdutoDto produtoAdicionar)
         {
-            var produtoSalvar = await _service.AddProduto(produtoAdicionar);
-
-            if (!produtoSalvar)
+            try
             {
-                return BadRequest("Erro ao tentar salvar o produto");
-            }
+                var produto = _mapper.Map<Produto>(produtoAdicionar);
 
-            return Ok("Pedido Salvo com suceso!");
+                List<CategoriaProduto> categoriaAdicionar = new List<CategoriaProduto>();
+
+                foreach (var categoria in produtoAdicionar.Categoria)
+                {
+                    var addCategoria = new CategoriaProduto
+                    {
+                        CategoriaId = categoria.Id
+                    };
+                    categoriaAdicionar.Add(addCategoria);
+                }
+
+                produto.CategoriaProduto.Add(categoriaAdicionar);
+
+                var produtoSalvar = await _service.AddProduto(produto);
+
+                if (!produtoSalvar)
+                {
+                    return BadRequest("Erro ao tentar salvar o produto");
+                }
+            
+                return Ok("Pedido Salvo com suceso!");
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+            
         }
     }
 }

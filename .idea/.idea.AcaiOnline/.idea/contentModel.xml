@@ -121,6 +121,9 @@
             </e>
           </e>
         </e>
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
         <e p="Repositories" t="Include">
           <e p="BaseRepository.cs" t="Include" />
           <e p="PedidoRepository.cs" t="Include" />

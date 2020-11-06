@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AcaiOnline.Core.Dtos;
 using AcaiOnline.Core.Entities;
 using AcaiOnline.Core.Interfaces.Repositories;
 using AcaiOnline.Core.Interfaces.Services;
@@ -18,6 +19,7 @@ namespace AcaiOnline.Application.Services
         public async Task<IEnumerable<Produto>> GetAllProdutos()
         {
             var produtos = await _repository.ProdutoRepository.GetAllProdutos();
+            
 
             return produtos;
         }
