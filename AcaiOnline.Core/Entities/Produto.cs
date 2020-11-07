@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AcaiOnline.Core.Entities
@@ -16,6 +17,11 @@ namespace AcaiOnline.Core.Entities
         public bool IsDisponivel { get; set; }
         public ICollection<PedidoProduto> PedidoProdutos { get; set; }
         public ICollection<CategoriaProduto> CategoriaProduto { get; set; }
+
+        public Produto()
+        {
+            CategoriaProduto = new Collection<CategoriaProduto>();
+        }
 
 
     }
