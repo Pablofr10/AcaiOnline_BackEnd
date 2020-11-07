@@ -8,6 +8,6 @@ namespace AcaiOnline.Core.Dtos
     public class CategoriaDto : BaseDto
     {
         public string Nome { get; set; }
-        //public ICollection<ProdutoDto> Produto { get; set; }
+        public ICollection<ProdutoDto> Produto { get; set; }
     }
 }

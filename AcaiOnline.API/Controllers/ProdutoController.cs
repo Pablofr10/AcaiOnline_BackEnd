@@ -25,7 +25,10 @@ namespace AcaiOnline.API.Controllers
         public async Task<IActionResult> Get()
         {
             var produtos = await _service.GetAllProdutos();
-            return Ok(produtos);
+
+            var produtosRetorno = _mapper.Map<List<ProdutoDto>>(produtos);
+
+            return Ok(produtosRetorno);
         }
 
         [HttpGet("{id}")]
@@ -64,14 +67,14 @@ namespace AcaiOnline.API.Controllers
 
                 if (!produtoSalvar)
                 {
-                    return BadRequest("Erro ao tentar salvar o produto");
+                    throw new ArgumentException("Os dados enviados não estão corretos");
                 }
             
                 return Ok("Pedido Salvo com suceso!");
             }
             catch (Exception e)
             {
-                return BadRequest(e.Message);
+                return BadRequest($"Erro ao tentar salvar o produto. /n {e.Message}");
             }
             
         }
